@@ -88,7 +88,7 @@ class ProfileMenuBlockService extends MenuBlockService
                     'attributes'         => array('class' => $settings['children_class']),
                 )
             );
-            $menu->setCurrentUri($settings['current_uri']);
+            $menu->setCurrent($settings['current_uri']);
         }
 
         return $menu;
